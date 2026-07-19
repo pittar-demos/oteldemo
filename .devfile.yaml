@@ -21,6 +21,13 @@ projects:
       checkoutFrom:
         revision: "main"
         remote: origin
+  - name: "oteldemo-gitops"
+    git:
+      remotes:
+        origin: "https://github.com/pittar-demos/oteldemo-gitops"
+      checkoutFrom:
+        revision: "main"
+        remote: origin
 components:
   - name: tools
     container:
