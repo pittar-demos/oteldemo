@@ -28,6 +28,12 @@ projects:
         remote: origin
 components:
   - name: tools
+    attributes:
+      pod-overrides:
+        metadata:
+          labels:
+            app: devspaces
+            costcentre: redteam
     container:
       image: quay.io/pittar/custom-udi-demo:latest
       env:
